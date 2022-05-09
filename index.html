@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <header>
+            <img src="./img/alura.png"  class="logo" alt="logo alura">
+            <h1>ENCRIPTADOR</h1>
+        </header>
+        <main class="contenedor-main">
+            <section class="contenedor-texto">
+                <input type="text" class="input-text" id="entradaTexto" placeholder="Ingrese el texto que quiere encriptar aquí" autofocus></input>
+                <h5>¡OJO! Sólo distingue minúsculas</h5>
+                <div class="botones">
+                    <button type="button"  class= "btn btn-secondary" id="encriptar" onclick="encriptar()">Encriptar</button>
+                    <button type="button"  class= "btn btn-secondary" id="desencriptar" onclick="desencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <section class="contendor-resultado">
+                <textarea id="txt2" name="name" placeholder="Aún no se ha ingresao una frase."></textarea>
+                <h5>Copia lo que encriptaste y enviaselo a un amigo!!</h5>
+                <button type="button" class="btn btn-outline-secondary" id="botonCopiar" onclick="copiar()">Copiar</button>
+            </section>
+            
+            
+        </main> 
+        <footer>
+            <h6>Challege #1 Alura x Oracle - <a href="https://www.linkedin.com/in/martina-ponce-de-leon/" target="_blank">Martina Ponce de León</a> 2022.</h6>
+        </footer>
+        <script src="./js/script.js"></script> 
+    </body>
+</html>
+

@@ -1,0 +1,120 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #b12a5b;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;    
+}
+
+header{
+    width: 940px;
+    position: relative;
+    margin:10px;     
+}
+
+.logo{
+    width: 15%;
+    margin-left: 15px;
+}
+
+header h1{
+    text-align: center;
+    float: right;
+    color: white;
+    font-family: 'Fredoka One', cursive;    
+}
+
+main{
+    background: #f9f6f2;
+    width: 1400px;
+    height: 825px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 2rem;
+    align-content: center;
+    left: 0;
+    right: 0;   
+}
+
+.contenedor-texto{
+    padding: 1em 0;
+    width: 900px;
+    height: 755px;
+    margin: 0 auto;
+    float: left;
+    border: 6px grey dashed;
+    border-radius: 15px;
+}
+
+.input-text{
+    width: 850px;
+    height: 550px;    
+    margin: 20px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align:center;
+    background-color: #f9f6f2;
+    outline: none;
+}
+
+section h5{
+    text-align: center;
+    color: #b12a5b;
+    margin: 10px;
+}
+
+.botones{
+    text-align: center;
+    cursor: pointer;
+    padding: 25px;
+    justify-content: space-between;
+}
+
+.contendor-resultado{
+    float: right;
+    width: 400px;
+    height: 750px;
+    border: 6px grey dashed;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+#txt2{
+    width: 365px;
+    height: 600px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align:center;
+    background-color: #f9f6f2;
+    outline: none;
+}
+
+#boton-copiar{
+    cursor: pointer;
+    padding: 5px;
+    margin-left:  auto;  
+    margin-right:auto ;
+}
+
+footer{
+    margin-top: 10px;
+}
+
+footer h6{
+    text-align: center;
+}
+
+footer a{
+    color:#b12a5b;    
+}
